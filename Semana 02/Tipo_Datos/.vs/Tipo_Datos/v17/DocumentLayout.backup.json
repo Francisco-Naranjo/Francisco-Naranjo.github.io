@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|c:\\users\\lenovo core i5\\source\\repos\\web_francisco\\semana 02\\tipo_datos\\views\\clientes\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\clientes\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|c:\\users\\lenovo core i5\\source\\repos\\web_francisco\\semana 02\\tipo_datos\\views\\clientes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\clientes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|c:\\users\\lenovo core i5\\source\\repos\\web_francisco\\semana 02\\tipo_datos\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|c:\\users\\lenovo core i5\\source\\repos\\web_francisco\\semana 02\\tipo_datos\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39ED8D4-8954-4EBF-8692-56BAEABB44F9}|Tipo_Datos.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Migrations\\20250811060819_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250811060819_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Eliminar.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T06:25:53.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T06:23:19.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Views\\Clientes\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Clientes\\Index.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T06:16:39.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:13:54.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250811060819_inicial.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Migrations\\20250811060819_inicial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250811060819_inicial.cs",
+              "ToolTip": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Migrations\\20250811060819_inicial.cs",
+              "RelativeToolTip": "Migrations\\20250811060819_inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:08:19.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
