@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Tipo_Datos.Migrations
 {
     /// <inheritdoc />
-    public partial class inicial : Migration
+    public partial class INICIAL : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -64,8 +64,8 @@ namespace Tipo_Datos.Migrations
                     Codigo_Barras = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Stock = table.Column<int>(type: "int", nullable: false),
                     Precio = table.Column<double>(type: "float", nullable: false),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Notas = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Notas = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Create_At = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Update_At = table.Column<DateTime>(type: "datetime2", nullable: false),
                     isDelete = table.Column<bool>(type: "bit", nullable: false)
@@ -100,13 +100,13 @@ namespace Tipo_Datos.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FechaVenta = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Codigo_Venta = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Notas = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Codigo_Venta = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Notas = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Sub_Total_Venta = table.Column<double>(type: "float", nullable: false),
-                    Estado_Venta = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Estado_Venta = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Descuento = table.Column<double>(type: "float", nullable: true),
                     Total_Venta = table.Column<double>(type: "float", nullable: false),
-                    Metodo_Pago = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Metodo_Pago = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ClientesModelId = table.Column<int>(type: "int", nullable: false),
                     Create_At = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Update_At = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -130,7 +130,7 @@ namespace Tipo_Datos.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ProductosModelId = table.Column<int>(type: "int", nullable: false),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Precio = table.Column<double>(type: "float", nullable: false),
                     Cantidad = table.Column<int>(type: "int", nullable: false),
                     Monto = table.Column<double>(type: "float", nullable: false),

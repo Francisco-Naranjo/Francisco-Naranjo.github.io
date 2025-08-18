@@ -7602,11 +7602,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Tipo_Datos.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO CORE I5\\source\\repos\\MiRepositorio\\Francisco-Naranjo.github.io\\Semana 02\\Tipo_Datos\\Tipo_Datos.csproj",
       "projectName": "Tipo_Datos",
-      "projectPath": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\Tipo_Datos.csproj",
+      "projectPath": "C:\\Users\\LENOVO CORE I5\\source\\repos\\MiRepositorio\\Francisco-Naranjo.github.io\\Semana 02\\Tipo_Datos\\Tipo_Datos.csproj",
       "packagesPath": "C:\\Users\\LENOVO CORE I5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO CORE I5\\source\\repos\\web_francisco\\Semana 02\\Tipo_Datos\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO CORE I5\\source\\repos\\MiRepositorio\\Francisco-Naranjo.github.io\\Semana 02\\Tipo_Datos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

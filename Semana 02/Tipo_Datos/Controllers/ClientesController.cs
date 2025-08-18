@@ -22,22 +22,21 @@ namespace Tipo_Datos.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> 
-            Nuevo([Bind("Nombres,Email,Telefono,Direccion,Cedula_RUC," +
-            "Create_At,Update_At,isDelete")] ClientesModel cliente)
+        public async Task<IActionResult>Nuevo([Bind("Nombres,Email,Telefono,Direccion,Cedula_RUC,isDelete")] ClientesModel cliente)
         {
             if (ModelState.IsValid)
             {
+                cliente.Create_At = DateTime.Now;
                 _dbContext.Add(cliente);
                 await _dbContext.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
             return  View(cliente);
         }
-
         public async Task<IActionResult> Editar(int? Id)
         {
             if (Id == null) return NotFound();
+
             var cliente = await _dbContext.Clientes.FindAsync(Id);
             if (cliente == null) return NotFound();
 
@@ -45,12 +44,11 @@ namespace Tipo_Datos.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(int id, [Bind("Id,Nombres,Email,Telefono,Direccion,Cedula_RUC,isDelete")] ClientesModel cliente)
-        {
+        
+        public async Task<IActionResult> Editar(int id, [Bind("Id,Nombres,Email,Telefono,Direccion,Cedula_RUC,isDelete")] ClientesModel cliente) {
             if (id != cliente.Id) return NotFound();
 
-            if (ModelState.IsValid)
-            {
+            if (ModelState.IsValid) {
                 try
                 {
                     cliente.Update_At = DateTime.Now;
@@ -60,60 +58,46 @@ namespace Tipo_Datos.Controllers
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!ClienteExiste(cliente.Id))
+                    {
                         return NotFound();
-                    else
+                    }
+                    else {
                         throw;
+                    }
                 }
                 return RedirectToAction(nameof(Index));
             }
             return View(cliente);
+    
         }
 
 
-
-        public bool ClienteExiste(int id)
-
+        public async Task<IActionResult> Eliminar(int? Id)
         {
+            if (Id == null) return NotFound();
 
-            return _dbContext.Clientes.Any(c => c.Id == id);
-
-        }
-
-        public async Task<IActionResult> Eliminar(int? id)
-
-        {
-
-            if (id == null) return NotFound();
-
-            var cliente = await _dbContext.Clientes.FirstOrDefaultAsync(c => c.Id == id);
-
+            var cliente = await _dbContext.Clientes.FindAsync(Id);
             if (cliente == null) return NotFound();
 
             return View(cliente);
-
         }
 
-        [HttpPost, ActionName("Eliminar")]
-
-        public async Task<IActionResult> EliminarConfirmado(int id)
-
-        {
-
-            var cliente = await _dbContext.Clientes.FindAsync(id);
-
-            if (cliente == null) return NotFound();
-
-            _dbContext.Clientes.Remove(cliente);
-
-            await _dbContext.SaveChangesAsync();
-
-            return RedirectToAction("Index");
-
+        [HttpDelete, ActionName("Eliminar")]
+        public async Task<IActionResult> ConfirmacionEliminar(int Id) {
+            var cliente = await _dbContext.Clientes.FindAsync(Id);
+            if (cliente != null) {
+                _dbContext.Clientes.Remove(cliente);
+                await _dbContext.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(Index));
         }
 
+
+        public bool ClienteExiste(int id) { 
+            return _dbContext.Clientes.Any(c => c.Id == id);
+        }
 
     }
 }
-
 
 

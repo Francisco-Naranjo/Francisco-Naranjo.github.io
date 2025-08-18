@@ -12,8 +12,8 @@ using Tipo_Datos.Data;
 namespace Tipo_Datos.Migrations
 {
     [DbContext(typeof(DatosDbContext))]
-    [Migration("20250811060819_inicial")]
-    partial class inicial
+    [Migration("20250814235959_INICIAL")]
+    partial class INICIAL
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -136,7 +136,6 @@ namespace Tipo_Datos.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Descripcion")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nombre")
@@ -144,7 +143,6 @@ namespace Tipo_Datos.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Notas")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Precio")
@@ -182,7 +180,6 @@ namespace Tipo_Datos.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("Nombre")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Precio")
@@ -255,7 +252,6 @@ namespace Tipo_Datos.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Codigo_Venta")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Create_At")
@@ -265,18 +261,15 @@ namespace Tipo_Datos.Migrations
                         .HasColumnType("float");
 
                     b.Property<string>("Estado_Venta")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("FechaVenta")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Metodo_Pago")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Notas")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("Sub_Total_Venta")
